@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 arr.sort((a,b)=>a-b);
-	let closestSum=infinity;
+	let closestSum=Infinity;
 	for(let i=0;i<arr.length-2;i++){
 		let low=i+1;
 		let high=arr.length-1;
